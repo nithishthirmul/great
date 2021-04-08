@@ -6,12 +6,23 @@ package com.myspace.sss;
 
 public class fdgfe implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public fdgfe() {
-    }
+	private java.lang.String vfdv;
 
+	public fdgfe() {
+	}
 
+	public java.lang.String getVfdv() {
+		return this.vfdv;
+	}
 
+	public void setVfdv(java.lang.String vfdv) {
+		this.vfdv = vfdv;
+	}
+
+	public fdgfe(java.lang.String vfdv) {
+		this.vfdv = vfdv;
+	}
 
 }
